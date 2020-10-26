@@ -1,0 +1,45 @@
+body {
+    background:#D5AD36;
+    font-family:Arial, Arial, Helvetica, sans-serif;
+}
+
+.assignments {
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.assignment {
+    width:28%;
+    padding:10px;
+    margin:20px;
+    background:#F4F2C9;
+    border-radius: 5px;
+    box-shadow: 6px 6px #CA9703;
+}
+
+.assignment img {
+    width:200px;
+    border: 3px solid #9BB5BF;
+    margin-right:20px;
+    border-radius: 5px;
+    display:block;
+    margin: auto;
+}
+
+h1 {
+    color:#0A1326;
+    text-align:center;
+}
+
+h2 {
+    text-align:center;
+}
+
+a { /* a is "anchor" */
+    text-decoration: none;
+    /* ^This gets rid of the underline under links */
+    color:#122640;
+}
+.assignment a:hover {
+    color:#4488BF;
+}
